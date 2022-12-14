@@ -4,28 +4,35 @@ import Link from "next/link";
 const Projects = () => {
   const projects = [
     {
-      name: "Dapper",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.Lacus sed viverra tellus in. Bibendum at varius vel pharetra velturpis nunc eget. Risus pretium quam vulputate dignissimsuspendisse in est. Sed id semper risus in. Dignissim",
-      link: "/../public/cover/dapper.png",
-      site: "https://dappr-fs.vercel.app/",
+      name: "Vo2",
+      desc: "A blockchain based platform that allows for athlete monetization through tokens for exclusive and engaged fans",
+      link: "/../public/cover/vo2.png",
+      site: "https://www.vo2.fans/",
+    },
+    {
+      name: "Inspired Earth",
+      desc: "An E-commerce site that has full functionality using, HTML,CSS, JS, PHP, and Stripe API to buy products ",
+      link: "/../public/cover/inspired.png",
+      site: "https://inspired.earth/",
     },
     {
       name: "Splitty",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.Lacus sed viverra tellus in. Bibendum at varius vel pharetra velturpis nunc eget. Risus pretium quam vulputate dignissimsuspendisse in est. Sed id semper risus in. Dignissim",
+      desc: "A crypto splitting app that calculates your percentage of the bill and sends a SMS message using Twilio to pay and gives an NFT of the receipt",
       link: "/../public/cover/splitty.png",
       site: "https://la-hacks-2022.vercel.app/",
     },
     {
-      name: "Inspired Earth",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.Lacus sed viverra tellus in. Bibendum at varius vel pharetra velturpis nunc eget. Risus pretium quam vulputate dignissimsuspendisse in est. Sed id semper risus in. Dignissim",
-      link: "/../public/cover/inspired.png",
-      site: "inspired.earth/",
+      name: "Dapper",
+      desc: "Meta-NFT handshake collectibles based on Ethereum that provides iconic handshakes from the web available to mint",
+      link: "/../public/cover/dapper.png",
+      site: "https://dappr-fs.vercel.app/",
     },
+
     {
       name: "Lexicode",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.Lacus sed viverra tellus in. Bibendum at varius vel pharetra velturpis nunc eget. Risus pretium quam vulputate dignissimsuspendisse in est. Sed id semper risus in. Dignissim",
+      desc: "A coding academy website using the MERN stack where students can learn to code through a variety of topics and track assignments",
       link: "/../public/cover/lexicode.png",
-      site: "lexicode.org",
+      site: "https://lexicode.org",
     },
   ];
   return (
@@ -39,10 +46,10 @@ const Projects = () => {
             <div className="bg-black p-6 rounded-lg shadow-xl  ">
               <Image
                 src={item.link}
-                alt="dapper"
+                alt={item.name}
                 width={550}
                 height={300}
-                className="rounded-lg"
+                className="rounded-lg "
               />
 
               <div className="text-slate-400 text-center">{item.desc}</div>

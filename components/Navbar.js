@@ -22,13 +22,20 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="flex  items-center gap-6 h-full justify-end pr-24 space-x-5 text-white">
-        <a className="flex items-center h-full hover:font-medium  hover:border-b-2 transition ease-in-out duration-200  ">
-          About Me
-        </a>
-        <a className="flex items-center h-full hover:font-medium  hover:border-b-2 transition ease-in-out duration-200">
+        <Link passHref={true} href="/">
+          <a className="flex items-center h-full hover:font-medium  hover:border-b-2 transition ease-in-out duration-200  ">
+            Home
+          </a>
+        </Link>
+        {/* <a className="flex items-center h-full hover:font-medium  hover:border-b-2 transition ease-in-out duration-200">
           Projects
-        </a>
-        <a className="flex items-center h-full hover:font-medium  hover:border-b-2 transition ease-in-out duration-200">
+        </a> */}
+        <a
+          className="flex items-center h-full hover:font-medium  hover:border-b-2 transition ease-in-out duration-200"
+          href="https://docs.google.com/document/d/1vZ4b3zLn4J_s2EN8nzMZzOCzhmjWCJzl8-6Dig-6kfs/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Resume
         </a>
       </div>
