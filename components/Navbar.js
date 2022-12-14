@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
+import justo from "../public/people/busto.png";
 
 const Navbar = () => {
   return (
@@ -9,7 +10,7 @@ const Navbar = () => {
         <div className="relative w-16 h-16">
           <Link passHref={true} href="/">
             <Image
-              src="/../public/people/busto.jfif"
+              src="/people/busto.png"
               alt="justin kim"
               layout="fill"
               objectFit="contain"

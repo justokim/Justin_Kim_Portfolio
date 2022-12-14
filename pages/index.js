@@ -102,7 +102,7 @@ export default function Home() {
               </div>
               <div className="">
                 <Image
-                  src="/../public/people/justo.jpg"
+                  src="/people/justo.jpg"
                   alt="picture"
                   objectFit="contain"
                   height={500}

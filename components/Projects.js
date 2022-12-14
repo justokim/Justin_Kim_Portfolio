@@ -6,32 +6,32 @@ const Projects = () => {
     {
       name: "Vo2",
       desc: "A blockchain based platform that allows for athlete monetization through tokens for exclusive and engaged fans",
-      link: "/../public/cover/vo2.png",
+      link: "/cover/vo2.png",
       site: "https://www.vo2.fans/",
     },
     {
       name: "Inspired Earth",
       desc: "An E-commerce site that has full functionality using, HTML,CSS, JS, PHP, and Stripe API to buy products ",
-      link: "/../public/cover/inspired.png",
+      link: "/cover/inspired.png",
       site: "https://inspired.earth/",
     },
     {
       name: "Splitty",
       desc: "A crypto splitting app that calculates your percentage of the bill and sends a SMS message using Twilio to pay and gives an NFT of the receipt",
-      link: "/../public/cover/splitty.png",
+      link: "/cover/splitty.png",
       site: "https://la-hacks-2022.vercel.app/",
     },
     {
       name: "Dapper",
       desc: "Meta-NFT handshake collectibles based on Ethereum that provides iconic handshakes from the web available to mint",
-      link: "/../public/cover/dapper.png",
+      link: "/cover/dapper.png",
       site: "https://dappr-fs.vercel.app/",
     },
 
     {
       name: "Lexicode",
       desc: "A coding academy website using the MERN stack where students can learn to code through a variety of topics and track assignments",
-      link: "/../public/cover/lexicode.png",
+      link: "/cover/lexicode.png",
       site: "https://lexicode.org",
     },
   ];
