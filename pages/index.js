@@ -91,7 +91,7 @@ export default function Home() {
                   internet my whole life to now understanding the how and why of
                   the intricacies of every single website from the backend to
                   the frontend has motivated me to keep on learning and not just
-                  in web development but in a multidude of topics such as
+                  in web development but in a multitude of topics such as
                   Software Development, Data Science, Cyber Security, etc.
                 </p>
                 <p>
