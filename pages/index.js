@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { useRef } from "react";
 import Link from "next/link";
 import Projects from "../components/Projects";
+import Experience from "../components/Experience";
 
 export default function Home() {
   const courseRef = useRef(null);
@@ -110,6 +111,17 @@ export default function Home() {
                 />
               </div>
             </div>
+          </div>
+        </section>
+        <section className="min-h-screen">
+          <div className="mx-auto w-full h-full font-mono">
+            <a
+              ref={courseRef1}
+              className=" ml-24 text-7xl font-mono text-white border-b-2 "
+            >
+              Experience
+            </a>
+            <Experience />
           </div>
         </section>
         <section className="min-h-screen">

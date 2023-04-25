@@ -4,16 +4,23 @@ import Link from "next/link";
 const Projects = () => {
   const projects = [
     {
-      name: "Splitty",
-      desc: "A crypto splitting app that calculates your percentage of the bill and sends a SMS message using Twilio to pay and gives an NFT of the receipt",
-      link: "/cover/splitty.png",
-      site: "https://la-hacks-2022.vercel.app/",
+      name: "Vo2",
+      desc: "A blockchain based platform that allows for athlete monetization through tokens for exclusive and engaged fans",
+      link: "/cover/vo2.png",
+      site: "https://www.vo2.fans/",
     },
     {
-      name: "Dapper",
-      desc: "Meta-NFT handshake collectibles based on Ethereum that provides iconic handshakes from the web available to mint",
-      link: "/cover/dapper.png",
-      site: "https://dappr-fs.vercel.app/",
+      name: "Inspired Earth",
+      desc: "An E-commerce site that has full functionality using, HTML,CSS, JS, PHP, and Stripe API to buy products ",
+      link: "/cover/inspired.png",
+      site: "https://inspired.earth/",
+    },
+
+    {
+      name: "Lexicode",
+      desc: "A coding academy website using the MERN stack where students can learn to code through a variety of topics and track assignments",
+      link: "/cover/lexicode.png",
+      site: "https://lexicode.org",
     },
   ];
   return (
